@@ -40,5 +40,20 @@ body {
 }
 
 .day {
+    display: contents;
     margin: 16px;
 }
+
+@media only screen and (max-width: 600px) {
+    .day h2 {
+      font-size: 1.5em;
+    }
+  
+    .day p {
+      font-size: 1.2em;
+    }
+  
+    .day ul li {
+      font-size: 1.2em;
+    }
+  }
