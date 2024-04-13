@@ -44,16 +44,14 @@ body {
     margin: 16px;
 }
 
-@media only screen and (max-width: 600px) {
-    .day h2 {
-      font-size: 3em;
-    }
-  
-    .day p {
-      font-size: 2em;
-    }
-  
-    .day ul li {
-      font-size: 2em;
-    }
-  }
+.day h2 {
+    font-size: 3em;
+}
+
+#content p {
+    font-size: 2em;
+}
+
+#content ul li {
+    font-size: 2em;
+}
